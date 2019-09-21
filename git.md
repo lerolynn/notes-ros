@@ -33,6 +33,18 @@ This creates a local copy of a repository hosted on a server.
 
 `git remote add origin <server>` - Connect repository to remote server if repository has not been cloned before.
 
+### Configure Users
+
+---
+
+`git config --global user.name lerolynn` - Configures author username for commits to name specified.
+
+---
+`git config --global user.email lerolynn@gmail.com` - Configures author email for commits to email specified.
+
+`git config --list` - Lists local configuration settings (eg. user.name, user.email)
+
+
 ### Branching
 
 ---
